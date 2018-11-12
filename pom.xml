@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.plasmawolke</groupId>
 	<artifactId>tube-radio-cure</artifactId>
@@ -26,25 +28,29 @@
 		</dependency>
 
 
-		
+		<dependency>
+			<groupId>javazoom</groupId>
+			<artifactId>jlayer</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.4</version>
 		</dependency>
-		
+
 		<dependency>
-    		<groupId>commons-io</groupId>
-   			<artifactId>commons-io</artifactId>
-    		<version>2.6</version>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
 		</dependency>
 
 
-		
-		<!--
-			compile group: 'commons-collections', name: 'commons-collections', version:'3.2'
-		-->
+
+		<!-- compile group: 'commons-collections', name: 'commons-collections', 
+			version:'3.2' -->
 
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -86,7 +92,7 @@
 						<configuration>
 							<appClass>de.plasmawolke.trc.Radio</appClass>
 							<fileName>radio</fileName>
-							<!--<fileDesc>-app</fileDesc>-->
+							<!--<fileDesc>-app</fileDesc> -->
 							<type>fat</type>
 						</configuration>
 					</execution>
