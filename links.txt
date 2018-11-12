@@ -1,0 +1,9 @@
+Software:
+https://raspberrypi.stackexchange.com/questions/24723/create-startup-sound
+
+
+
+Hardware:
+http://pi4j.com/pins/model-3b-rev1.html
+https://www.voelkner.de/products/113039/Reely-Stahlzahnrad-Modul-Typ-1.0-Bohrungs-6mm-Anzahl-Zaehne-15.html
+https://www.modmypi.com/blog/how-to-use-a-rotary-encoder-with-the-raspberry-pi
